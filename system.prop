@@ -1,4 +1,4 @@
-persist.radio.mode_pref_nv10=1
+ril.subscription.types=NV,RUIM
 rild.libargs=-d /dev/smd0
 
 ro.qc.sdk.izat.premium_enabled=0
@@ -20,4 +20,5 @@ use.dedicated.device.for.voip=true
 qcom.hw.aac.encoder=true
 
 # System property for number of mQANElements
-ro.ril.telephony.mqanelements=6
+telephony.lteOnCdmaDevice=1
+ro.ril.telephony.mqanelements=5
