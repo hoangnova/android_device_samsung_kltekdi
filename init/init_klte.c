@@ -86,6 +86,13 @@ void vendor_load_properties()
         property_set("ro.build.description", "kltedcm-user 4.4.2 KOT49H SC04FOMU1ANCO release-keys");
         property_set("ro.product.model", "SM-G900D");
         property_set("ro.product.device", "kltedcm");
+    } else if (strstr(bootloader, "G900J")) {
+        /* kltekdi */
+        gsm_properties();
+        property_set("ro.build.fingerprint", "KDDI/SCL23/SCL23:4.4.2/KOT49H/SCL23KDU1AND1:user/release-keys");
+        property_set("ro.build.description", "kltekdi-user 4.4.2 KOT49H SCL23KDU1AND1 release-keys");
+        property_set("ro.product.model", "SM-G900J");
+        property_set("ro.product.device", "kltekdi");
     } else if (strstr(bootloader, "G900I")) {
         /* kltedv */
         gsm_properties();
