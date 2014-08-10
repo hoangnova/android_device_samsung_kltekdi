@@ -4,27 +4,26 @@
 	<!-- KLTE EUR ================================================ -->
 	<!-- These are the initial mixer settings -->
 	<!-- reset RX part -->
-	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia1" value="ZERO" />
-	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia2" value="ZERO" />
-	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia3" value="ZERO" />
-	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia4" value="ZERO" />
-	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia5" value="ZERO" />
-	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia10" value="ZERO" />
+	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia1" value="0" />
+	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia2" value="0" />
+	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia3" value="0" />
+	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia4" value="0" />
+	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia5" value="0" />
 
-	<ctl name="SLIMBUS_0_RX Port Mixer SLIM_0_TX" value="ZERO" />
+	<ctl name="SLIMBUS_0_RX Port Mixer SLIM_0_TX" value="0" />
 
-	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia1" value="ZERO" />
-	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia4" value="ZERO" />
-	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia5" value="ZERO" />
+	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia1" value="0" />
+	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia4" value="0" />
+	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia5" value="0" />
 
-	<ctl name="HDMI Mixer MultiMedia1" value="ZERO" />
-	<ctl name="HDMI Mixer MultiMedia2" value="ZERO" />
+	<ctl name="HDMI Mixer MultiMedia1" value="0" />
+	<ctl name="HDMI Mixer MultiMedia2" value="0" />
 
-	<ctl name="SLIM_0_RX_Voice Mixer CSVoice" value="ZERO" />
-	<ctl name="SLIM_0_RX_Voice Mixer Voip" value="ZERO" />
+	<ctl name="SLIM_0_RX_Voice Mixer CSVoice" value="0" />
+	<ctl name="SLIM_0_RX_Voice Mixer Voip" value="0" />
 
-	<ctl name="AUX_PCM_RX_Voice Mixer CSVoice" value="ZERO" />
-	<ctl name="AUX_PCM_RX_Voice Mixer Voip" value="ZERO" />
+	<ctl name="AUX_PCM_RX_Voice Mixer CSVoice" value="0" />
+	<ctl name="AUX_PCM_RX_Voice Mixer Voip" value="0" />
 
 	<ctl name="SLIM RX1 MUX" value="ZERO" />
 	<ctl name="SLIM RX2 MUX" value="ZERO" />
@@ -56,24 +55,24 @@
 	<ctl name="RX1 MIX1 INP2" value="ZERO" />
 	<ctl name="RX1 MIX1 INP1" value="ZERO" />
 
-	<ctl name="RX1 Digital Volume" value="ZERO" />
-	<ctl name="RX2 Digital Volume" value="ZERO" />
-	<ctl name="RX3 Digital Volume" value="ZERO" />
-	<ctl name="RX4 Digital Volume" value="ZERO" />
-	<ctl name="RX5 Digital Volume" value="ZERO" />
-	<ctl name="RX6 Digital Volume" value="ZERO" />
-	<ctl name="RX7 Digital Volume" value="ZERO" />
+	<ctl name="RX1 Digital Volume" value="0" />
+	<ctl name="RX2 Digital Volume" value="0" />
+	<ctl name="RX3 Digital Volume" value="0" />
+	<ctl name="RX4 Digital Volume" value="0" />
+	<ctl name="RX5 Digital Volume" value="0" />
+	<ctl name="RX6 Digital Volume" value="0" />
+	<ctl name="RX7 Digital Volume" value="0" />
 
-	<ctl name="HPHL DAC Switch" value="ZERO" />
-	<ctl name="HPHL Volume" value="ZERO" />
-	<ctl name="HPHR Volume" value="ZERO" />
+	<ctl name="HPHL DAC Switch" value="0" />
+	<ctl name="HPHL Volume" value="0" />
+	<ctl name="HPHR Volume" value="0" />
 
-	<ctl name="LINEOUT1 Volume" value="ZERO" />
-	<ctl name="LINEOUT2 Volume" value="ZERO" />
-	<ctl name="LINEOUT3 Volume" value="ZERO" />
-	<ctl name="LINEOUT4 Volume" value="ZERO" />
-	
-	<ctl name="SPK DRV Volume" value="ZERO" />
+	<ctl name="LINEOUT1 Volume" value="0" />
+	<ctl name="LINEOUT2 Volume" value="0" />
+	<ctl name="LINEOUT3 Volume" value="0" />
+	<ctl name="LINEOUT4 Volume" value="0" />
+
+	<ctl name="SPK DRV Volume" value="0" />
 
 	<ctl name="EAR PA Gain" value="POS_0_DB" />
 
@@ -92,8 +91,6 @@
 	<ctl name="MultiMedia1 Mixer SLIM_0_TX" value="0" />
 	<ctl name="MultiMedia1 Mixer SLIM_4_TX" value="0" />
 	<ctl name="MultiMedia1 Mixer AUX_PCM_UL_TX" value="0" />
-	<ctl name="MultiMedia1 Mixer VOC_REC_UL" value="0" />
-	<ctl name="MultiMedia1 Mixer VOC_REC_DL" value="0" />
 
 	<ctl name="Voice_Tx Mixer SLIM_0_TX_Voice" value="0" />
 	<ctl name="Voice_Tx Mixer AUX_PCM_TX_Voice" value="0" />
@@ -127,27 +124,26 @@
 
 	<ctl name="SLIM RX1 MUX" value="AIF1_PB" />
 	<ctl name="SLIM RX2 MUX" value="ZERO" />
-	<ctl name="AIF1_CAP Mixer SLIM TX7" value="ZERO" />
-	<ctl name="AIF1_CAP Mixer SLIM TX8" value="ZERO" />
-	<ctl name="AIF1_CAP Mixer SLIM TX9" value="ZERO" />
+	<ctl name="AIF1_CAP Mixer SLIM TX7" value="0" />
+	<ctl name="AIF1_CAP Mixer SLIM TX8" value="0" />
 
-	<ctl name="ADC1 Volume" value="ZERO" />
-	<ctl name="ADC2 Volume" value="ZERO" />
-	<ctl name="ADC3 Volume" value="ZERO" />
-	<ctl name="ADC4 Volume" value="ZERO" />
-	<ctl name="ADC5 Volume" value="ZERO" />
-	<ctl name="ADC6 Volume" value="ZERO" />
+	<ctl name="ADC1 Volume" value="0" />
+	<ctl name="ADC2 Volume" value="0" />
+	<ctl name="ADC3 Volume" value="0" />
+	<ctl name="ADC4 Volume" value="0" />
+	<ctl name="ADC5 Volume" value="0" />
+	<ctl name="ADC6 Volume" value="0" />
 
-	<ctl name="DEC1 Volume" value="ZERO" />
-	<ctl name="DEC2 Volume" value="ZERO" />
-	<ctl name="DEC3 Volume" value="ZERO" />
-	<ctl name="DEC4 Volume" value="ZERO" />
-	<ctl name="DEC5 Volume" value="ZERO" />
-	<ctl name="DEC6 Volume" value="ZERO" />
-	<ctl name="DEC7 Volume" value="ZERO" />
-	<ctl name="DEC8 Volume" value="ZERO" />
-	<ctl name="DEC9 Volume" value="ZERO" />
-	<ctl name="DEC10 Volume" value="ZERO" />
+	<ctl name="DEC1 Volume" value="0" />
+	<ctl name="DEC2 Volume" value="0" />
+	<ctl name="DEC3 Volume" value="0" />
+	<ctl name="DEC4 Volume" value="0" />
+	<ctl name="DEC5 Volume" value="0" />
+	<ctl name="DEC6 Volume" value="0" />
+	<ctl name="DEC7 Volume" value="0" />
+	<ctl name="DEC8 Volume" value="0" />
+	<ctl name="DEC9 Volume" value="0" />
+	<ctl name="DEC10 Volume" value="0" />
 
 	<ctl name="TX3 HPF cut off" value="MIN_3DB_4Hz" />
 	<ctl name="TX4 HPF cut off" value="MIN_3DB_4Hz" />
