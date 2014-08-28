@@ -88,6 +88,9 @@ TARGET_PROVIDES_LIBLIGHT := true
 # Time services
 BOARD_USES_QC_TIME_SERVICES := true
 
+# CMHW
+BOARD_HARDWARE_CLASS += device/samsung/klte/cmhw
+
 # Display
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 OVERRIDE_RS_DRIVER:= libRSDriver_adreno.so
@@ -98,16 +101,19 @@ TARGET_FORCE_HWC_FOR_VIRTUAL_DISPLAYS := true
 # Increase the size if shaders of size greater than 12KB are used.
 MAX_EGL_CACHE_KEY_SIZE := 12*1024
 
-# Maximum GLES shader cache size for each app to store the compiled shader
-# binaries. Decrease the size if RAM or Flash Storage size is a limitation
-# of the device.
-MAX_EGL_CACHE_SIZE := 2048*1024
+# Init
+TARGET_INIT_VENDOR_LIB := libinit_msm
+TARGET_LIBINIT_DEFINES_FILE := device/samsung/klte/init/init_klte.c
+TARGET_UNIFIED_DEVICE := true
+
+# Camera
+COMMON_GLOBAL_CFLAGS += -DSAMSUNG_CAMERA_HARDWARE
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := kltexx,kltelra,kltespr,kltetmo,kltecan,klteatt,kltevzw,klteusc,kltedv,klteub,klteacg,kltedcm,kltekdi,klte
 
-# PowerHAL
-TARGET_POWERHAL_VARIANT := qcom
+# NFC
+# BOARD_NFC_HAL_SUFFIX := MSM8974
 
 # Consumerir
 TARGET_PROVIDES_CONSUMERIR_HAL := true
